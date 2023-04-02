@@ -22,7 +22,6 @@ class UserAddressTest extends TestCase
 
     public function test_user_gets_a_validation_error_if_address_is_empty()
     {
-
         $response = $this->json('POST', '/api/V1/user/address', []);
         $response
             ->assertStatus(422)
@@ -38,7 +37,7 @@ class UserAddressTest extends TestCase
                     ],
                 ]
             ]);
-            
+
     }
 
 }

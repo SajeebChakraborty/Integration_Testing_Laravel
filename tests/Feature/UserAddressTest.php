@@ -37,7 +37,6 @@ class UserAddressTest extends TestCase
                     ],
                 ]
             ]);
-
     }
 
 }
